@@ -1,5 +1,5 @@
 # Pull base image.
-FROM dockerfile/python
+FROM python
 
 # Install Ansible.
 RUN pip install ansible
